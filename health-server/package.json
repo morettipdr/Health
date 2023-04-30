@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "prisma": "^4.13.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "fastify": "^4.17.0"
+  },
+  "name": "health-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
