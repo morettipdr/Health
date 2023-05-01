@@ -9,6 +9,16 @@ async function boostrap() {
         logger: true
     })
 
+    fastify.post("/users/create", async(req, res) => {
+        const newUser = await prisma.user.create({
+            data: {
+                name: req.body.name,
+                email: req.body.email,
+            }
+        })
+        res.send("post made")
+    })
+
     fastify.get("/", async (req, res) => {
         res.send({status:true})
     })

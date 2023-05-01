@@ -31,7 +31,7 @@ export default function Login () {
                     </div>
                 </div>
                 <div>
-                    <button className="bg-buttons shadow-xl transition-all duration-250 hover:text-slate-800 hover:bg-green-600 h-11 w-32 rounded-3xl text-xl font-medium">LOGIN</button>
+                    <button className="bg-buttons shadow-xl transition-all duration-250 hover:bg-green-600 h-11 w-32 rounded-3xl text-xl font-medium">LOGIN</button>
                 </div>
                 <div className="google flex items-center drop-shadow-2xl bg-bgGoogle h-11 w-3/5 p-5 rounded-xl mt-6">
                     <button className="text-googleSignIn flex items-center gap-5 font-semibold text-xl"><Image className="object-contain h-5" src={google} alt="google logo"/> Continue with Google</button>

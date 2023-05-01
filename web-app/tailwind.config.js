@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         landing: "#008E39",
-        buttons: "#00C14D",
+        buttons: "#6ba641",
         colorLogin: "#2B2B2B",
         whiteLogin: "#D9D9D9",
         userLogin: "#2C6238",
@@ -25,7 +25,8 @@ module.exports = {
         '3/4': '3 / 4',
       },
       spacing: {
-        "loginInput": "2.5rem"
+        "loginInput": "2.5rem",
+        "twoscreen": "200vh"
       }
     },
   },
