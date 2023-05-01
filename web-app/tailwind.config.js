@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         landing: "#008E39",
-        buttons: "#05751f",
+        buttons: "#00C14D",
         colorLogin: "#2B2B2B",
         whiteLogin: "#D9D9D9",
         userLogin: "#2C6238",

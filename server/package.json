@@ -6,13 +6,14 @@
   },
   "dependencies": {
     "@prisma/client": "^4.13.0",
-    "fastify": "^4.17.0"
+    "fastify": "^4.17.0",
+    "mongodb": "^5.3.0"
   },
   "name": "health-server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "author": "",
