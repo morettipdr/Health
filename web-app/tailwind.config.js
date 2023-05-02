@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         landing: "#008E39",
-        buttons: "#6ba641",
+        whiteButtons: "#FAF5E9",
+        buttons: "#FFCC00",
         colorLogin: "#2B2B2B",
         whiteLogin: "#D9D9D9",
         userLogin: "#2C6238",
@@ -26,9 +27,20 @@ module.exports = {
       },
       spacing: {
         "loginInput": "2.5rem",
-        "twoscreen": "200vh"
-      }
-    },
+        "twoScreen": "200vh",
+        "threeScreen": "300vh",
+        "1/5vh": "20vh",
+        "4/5vh": "80vh",
+      },
+      fontSize: {
+        "xsm": '0.5rem',
+        "2xsm": "0.25rem",
+      },
+      borderRadius: {
+        "4xl": "1.75rem",
+        "5xl": "15rem"
+      },
   },
   plugins: [],
+}
 }
