@@ -1,15 +1,9 @@
 'use client'
-
-import { useContext } from "react"
-import { userContext, AuthProvider } from "../contexts/userContext"
-import UserEmail from "@/components/userEmail"
-
 export default function Main(){
-    const {userEmail} = useContext(userContext)
     
     return (
-        <AuthProvider>
-            <UserEmail/>
-        </AuthProvider>
+        <div className="bg-green-600 h-screen">
+            <h1 className="text-white">email: "gay"</h1>
+        </div>        
     )
 }

@@ -4,11 +4,9 @@ import Image from "next/image"
 import woman from "../../public/woman.png"
 import Link from "next/link"
 import logo from "../../public/logo.svg"
-import { AuthProvider } from "./contexts/userContext"
 
 export default function Home () {
       return (
-        <AuthProvider>
           <div className="m-0 p-0 h-threeScreen w-[100vw] overflow-x-hidden box-border flex flex-col bg-landing">
             <div className="firstScreen h-1/3 w-screen">
               <div className="mt-3 navbar flex box-border justify-between w-screen h-1/6">
@@ -42,6 +40,5 @@ export default function Home () {
             <div className="thirdScreen h-1/3 w-screen">
             </div>
           </div>
-        </AuthProvider>
       )
 }
