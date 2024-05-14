@@ -11,7 +11,7 @@ export default function Login () {
             <div className="welcomeText flex-1 h-screen bg-landing flex flex-col justify-center items-center gap-28 relative">
                 <Link className="bg-black w-28" href="/"><button className="mt-5 ml-5 text-white font-bold shadow-2xl bg-buttons rounded-3xl hover:bg-green-950 transition-all duration-200 p-2 w-28 absolute left-0 top-0">HOME</button></Link>
                 <h1 className="text-7xl font-semibold text-center"><span className="text-black">WELCOME<span/></span> BACK TO THE PLATFORM</h1>
-                <h1 className="text-7xl font-semibold text-center">THAT’S THE <span className="text-black">NEXT STEP</span> TO BECOME HEALTHIER</h1>
+                <h1 className="text-7xl font-semibold text-center">THAT'S THE <span className="text-black">NEXT STEP</span> TO BECOME HEALTHIER</h1>
             </div>
             <div className="loginInputs flex flex-col justify-center items-center w-2/5 gap-6 bg-whiteLogin h-screen">
                 <p className="text-userLogin font-semibold text-2xl">ACCOUNT LOGIN</p>

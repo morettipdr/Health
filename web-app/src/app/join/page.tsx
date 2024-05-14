@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
 
 export default function Join() {
-    const [userEmail, setUserEmail] = useState("VIADO")
+    const [userEmail, setUserEmail] = useState("none")
     const [nameInput, setNameInput] = useState("");
     const [passwordInput, setPasswordInput] = useState("");
     let isSignedUp = false;
@@ -20,7 +20,10 @@ export default function Join() {
     function handleChangePassword(event: any) {
         setPasswordInput(event.target.value)        
     }
-    
+    async function getUser(){
+        await api.get("/users/count");
+    }
+
     async function signUp(){
         if(nameInput == "" || userEmail == "" || passwordInput == ""){
             console.log("You must fill all the required fields");
@@ -46,7 +49,7 @@ export default function Join() {
                 <input onChange={handleChangePassword} type="password" className="rounded-xl px-2 h-8 bg-slate-300" placeholder="password" />
             </div>
             <button onClick={signUp} className="text-black font-semibold text-lg hover:bg-black transition-all duration-200 hover:text-white bg-white w-28 rounded-2xl h-9"><Link className="h-full w-full" href={{pathname: isSignedUp ? "/home" : "/join"}}>SIGN IN</Link></button>
-            <p className="text-white">USERS:</p>
+            <p className="text-white">USERS:{}</p>
         </div>
     )
 }
